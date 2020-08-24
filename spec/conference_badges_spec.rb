@@ -108,3 +108,35 @@ TEXT
   end
 
 end
+
+def badge_maker(name)
+  return "Hello, my name is #{name}."
+end
+
+speakers_array = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+
+def batch_badge_creator(speakers_array)
+  badges = []
+    speakers_array.each do |name|
+      badges << "Hello, my name is #{name}."
+    end
+  return badges
+end
+
+def assign_rooms (speakers_array)
+  room_assignments = []
+  speakers_array.each_with_index do |name, room|
+    room_assignments << "Hello, #{name}! You'll be assigned to room #{room + 1}!"
+  end
+  return room_assignments
+end   
+
+def printer(attendees)
+    batch_badge_creator(attendees)
+      badges.each do |line|
+        puts line
+      end
+      room_assignments.each do |line|
+        puts line
+      end
+    end
