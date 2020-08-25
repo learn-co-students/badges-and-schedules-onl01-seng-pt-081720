@@ -1,0 +1,25 @@
+name= ["Ariel"]
+
+def badge_maker(name)
+  badge_maker= name
+  puts "Hello, my name is #{name}"
+end
+
+room_assignments = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus","Matz"]
+
+def assign_room(room_assignments)
+  assign_room= []
+  room_assignments.each do |room_assignment|
+    puts room_assignments
+  end
+  return room_assignments
+end
+
+batch_badge_creator= ["Johnny."]
+
+def printer (batch_badge_creator)
+  batch_badge_creator = []
+print "Hello, my name is #{name}"
+end
+
+room_assignments= ["1", "2", "3","4","5","6",'7']
