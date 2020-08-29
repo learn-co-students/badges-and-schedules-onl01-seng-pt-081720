@@ -16,6 +16,7 @@ def assign_rooms(speakers)
   end
 end
 def printer(speakers)
+  # printing speakers to value for room
   batch_badge_creator(speakers).each do |value|
     puts value
   end
