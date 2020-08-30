@@ -14,15 +14,15 @@ def batch_badge_creator(array_of_names)
   return new_array
 end
 
-#def assign_rooms(array_of_speakers)
-#  new_array = []
-#  counter = 1
-#  array_of_speakers.each do |name|
-#    new_array.push("Hello, #{name}! You'll by assigned to room #{counter}!")
-#    counter++
-#  end
-#  return new_array
-#end
+def assign_rooms(array_of_speakers)
+  new_array = []
+  counter = 1
+  array_of_speakers.each do |name|
+    new_array.push("Hello, #{name}! You'll by assigned to room #{counter}!")
+    counter++
+  end
+  return new_array
+end
 
 #def printer
 #  batch_badge_creator(list_of_speakers)
